@@ -1,3 +1,4 @@
+import AddExpenseForm from "./components/AddExpenseForm";
 import Budget from "./components/Budget";
 import ExpenseList from "./components/ExpenseList";
 import Remaining from "./components/Remaining";
@@ -16,6 +17,7 @@ function App() {
         <Spent />
       </div>
       <ExpenseList />
+      <AddExpenseForm />
     </div>
   );
 }

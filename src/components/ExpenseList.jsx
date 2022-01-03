@@ -10,7 +10,7 @@ function ExpenseList() {
     ];
     return (
       <div class="py-5">
-        <ul class="menu py-3 shadow-lg  rounded-box">
+        <ul class="menu py-3 shadow-lg bg-base-200 rounded-box">
           {/* <li class="menu-title">
             <span>Menu Title</span>
           </li> */}
