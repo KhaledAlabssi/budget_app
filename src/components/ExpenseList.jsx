@@ -1,16 +1,14 @@
-import React from 'react'
-import ExpenseItem from './ExpenseItem';
+import React, {useContext} from 'react'
+import { AppContext } from '../context/AppContext'
+import ExpenseItem from './ExpenseItem'
 
 
 function ExpenseList() {
-    const expenses = [
-      { id: 12, name: "shopping", cost: 40 },
-      { id: 13, name: "holiday", cost: 400 },
-      { id: 14, name: "car service", cost: 50 },
-    ];
+    const {expenses} = useContext(AppContext)
+    
     return (
       <div class="py-5">
-        <ul class="menu py-3 shadow-lg bg-base-200 rounded-box">
+        <ul class="menu py-3 shadow-lg  rounded-box">
           {/* <li class="menu-title">
             <span>Menu Title</span>
           </li> */}

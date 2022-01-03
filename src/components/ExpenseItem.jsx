@@ -1,6 +1,7 @@
 import React from 'react'
 import {TiDelete} from 'react-icons/ti'
 
+
 function ExpenseItem({name, cost}) {
     return (
       <li className='py-1'>

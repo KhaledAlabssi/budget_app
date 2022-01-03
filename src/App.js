@@ -11,7 +11,7 @@ function App() {
     <AppProvider>
 
     <div className="h-screen  w-screen container mx-auto">
-      <h1 className="font-bold py-6 text-4xl">Budget App</h1>
+      <h1 className="font-bold py-6 text-4xl text-center">BUDGET APP</h1>
 
       <div className="  columns-1 md:columns-3">
         
