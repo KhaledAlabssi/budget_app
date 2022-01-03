@@ -29,7 +29,7 @@ function AddExpenseForm() {
               />
             </label>
           </div>
-          <button className="btn btn-primary basis-1/5">Save</button>
+          <button type="submit" className="btn btn-primary basis-1/5">Save</button>
         </div>
       </form>
     </div>
