@@ -8,6 +8,7 @@ function ExpenseList() {
     
     return (
       <div class="py-5">
+          <h2 className='text-center p-4'>EXPENSES LIST:</h2>
         <ul class="menu py-3 shadow-lg  rounded-box">
           {/* <li class="menu-title">
             <span>Menu Title</span>
